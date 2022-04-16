@@ -1,0 +1,50 @@
+.navegador {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px;
+    background-color: $black;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 10px;
+
+    &-logo {
+        box-sizing: border-box;
+        padding-top:10px;
+        padding-bottom: 5px;
+
+        img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+
+    &-icono {
+        box-sizing: border-box;
+        text-align: end;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+
+        @media (min-width:$bp-md) {
+            display: none;
+        }
+    }
+
+    &-menu {
+
+        ul {
+            display: none;
+        }
+
+        @media (min-width:$bp-md) {
+            ul {
+                display: grid;
+                grid-template-columns: 83px 58px 61px;
+                grid-gap: 30px;
+                justify-content: end;
+                padding: 30px 20px;
+                margin: 0px;
+            }
+        }
+    }
+}

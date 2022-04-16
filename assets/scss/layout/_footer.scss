@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $black;
+    padding: 50px 70px;
+    gap: 15px;
+
+    a {
+        font-family: 'Poppins', sans-serif;
+        color: $white;
+        text-align: center;
+        font-size: $medium;
+        font-weight: $regular;
+        display: inline;
+    }
+
+    @media (min-width:$bp-md) {
+        display: grid;
+        grid-template-columns: 1fr 70px 150px 263px 73px;
+        gap: 5px;
+
+        h6 {
+            display: inline;
+        }
+        
+
+        
+
+    }
+}

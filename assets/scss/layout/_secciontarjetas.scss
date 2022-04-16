@@ -1,0 +1,87 @@
+.seccion {
+
+    &-tarjeta1 {
+
+        margin: 10px;
+        border: 1px solid $black;
+    }
+
+    &-minitarjeta {
+
+        border: 1px solid $black;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        margin: 15px;
+        padding: 10px;
+
+        .imagen {
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+    }
+
+    &-tarjeta2 {
+        margin: 10px;
+        border: 1px solid $black;
+        padding: 10px;
+
+        .imagen2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border: solid 1px $black;
+            }
+        }
+
+        .titulo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1 {
+                font-size: $small;
+            }
+        }
+
+        .iconos2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+
+            i {
+                color: $black;
+                font-size: $small;
+            }
+        }
+
+        .subtitulo {
+            background-color: $charcoal;
+        }
+
+        .imagen3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-bottom: 40px;
+
+            svg {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    }
+
+    @media (min-width:$bp-md) {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}

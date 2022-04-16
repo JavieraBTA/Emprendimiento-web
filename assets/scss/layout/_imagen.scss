@@ -1,0 +1,15 @@
+.imagen {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    img {
+        width: 100%;
+    }
+
+    @media (min-width:$bp-md) {
+        img {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+}

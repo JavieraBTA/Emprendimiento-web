@@ -1,0 +1,98 @@
+i {
+    color: $white;
+    font-size: $xx-large;
+    transition: color;
+
+    &:hover {
+        color: $orange;
+    }
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-size: $medium;
+    font-weight: $bold;
+    color: $white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $large;
+    font-weight: $bold;
+    color: $black;
+
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $x-small;
+    color: $black;
+    font-weight: $regular;
+    line-height: 25px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: $medium;
+    font-weight: $bold;
+    color: $black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.iconos {
+    i {
+        color: $black;
+        font-size: $x-small;
+    }
+
+    h3 {
+        display: inline;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: $x-small;
+        font-weight: $bold;
+
+    }
+
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: $white;
+    text-align: center;
+    font-size: $small;
+    font-weight: $bold;
+
+}
+
+.lista {
+
+    ul  {
+
+        padding-inline-start: 20px;
+        li {
+            list-style: circle;
+        }
+    }
+
+    a {
+        font-family: 'Poppins', sans-serif;
+        color: purple;
+        font-weight: $regular;
+        font-weight: $medium;
+    }
+
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+    color: $white;
+    text-align: center;
+    font-size: $medium;
+    font-weight: $regular;
+    margin: 0px;
+}

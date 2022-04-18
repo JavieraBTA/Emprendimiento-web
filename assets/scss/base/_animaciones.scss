@@ -1,0 +1,33 @@
+@keyframes rotar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(30%, 0);
+    }
+}
+
+.engranaje {
+    animation: rotar 3s linear infinite;
+    transform-origin: 78% 80%;
+}
+
+.ruedita {
+    animation: rotar 3s linear infinite;
+    transform-origin: 78% 80%;
+}
+
+.simbolos {
+    animation: mover 4s linear infinite;
+}
